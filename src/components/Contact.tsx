@@ -30,7 +30,7 @@ const Contact = () => {
         >
           <h2 className="contact__title">Get In Touch</h2>
           <p className="contact__subtitle">
-            I'm always open to discussing new opportunities and interesting projects.
+            I'm always open to discussing new opportunities and interesting projects
           </p>
         </motion.div>
 
