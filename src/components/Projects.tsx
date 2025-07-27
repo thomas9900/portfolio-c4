@@ -3,6 +3,20 @@ import { ExternalLink, Github } from 'lucide-react';
 import '../styles/Projects.scss';
 import { useState } from 'react';
 
+// Import project screenshots
+import soovScrn from '../assets/img/soov-scrn.png';
+import samuScrn from '../assets/img/samu-scrn.png';
+import metsaoksjonScrn from '../assets/img/metsaoksjon-scrn.png';
+import portfolioScrn from '../assets/img/portfolio-scrn.png';
+import elkScrn from '../assets/img/elk-scrn.png';
+import zeroestScrn from '../assets/img/zeroest-scrn.png';
+import teaterScrn from '../assets/img/teater-scrn.png';
+import bangbonsomerScrn from '../assets/img/bangbonsomer-scrn.png';
+import oplehtScrn from '../assets/img/opleht-scrn.png';
+import loominguraamatukoguScrn from '../assets/img/loominguraamatukogu-scrn.png';
+import sirpScrn from '../assets/img/sirp-scrn.png';
+import loodusmajaScrn from '../assets/img/loodusmaja-scrn.png';
+
 interface ProjectItem {
   id: number;
   title: string;
@@ -27,7 +41,7 @@ const Projects = () => {
       description: 'Estonia’s leading classifieds platform for buying and selling vehicles, real estate, electronics, and more. Features advanced search, category browsing, and a user-friendly interface.',
       technologies: ['PHP', 'MySQL', 'JavaScript', 'SCSS', 'WordPress', 'jQuery', 'Bootstrap'],
       liveUrl: 'https://soov.ee',
-      image: '/src/assets/img/soov-scrn.png',
+      image: soovScrn,
       featured: true,
     },
     {
@@ -37,7 +51,7 @@ const Projects = () => {
       description: 'Official website for Saaremaa Museum, one of Estonia’s largest and most prominent museums. The site provides information about exhibitions, events, educational programs, and the museum’s history, as well as visitor information and digital resources.',
       technologies: ['JavaScript', 'SCSS', 'WordPress', 'PHP', 'MySQL'],
       liveUrl: 'https://samu.ee',
-      image: '/src/assets/img/samu-scrn.png',
+      image: samuScrn,
       featured: true,
     },
     {
@@ -46,7 +60,7 @@ const Projects = () => {
       category: 'Forestry Auction Platform',
       description: 'An online platform for forest owners and buyers to connect, list, and bid on forest properties and timber auctions in Estonia. Includes auction management and secure transactions.',
       technologies: ['MySQL', 'WordPress', 'PHP', 'JavaScript', 'SCSS'],
-      image: '/src/assets/img/metsaoksjon-scrn.png',
+      image: metsaoksjonScrn,
       liveUrl: 'https://metsaoksjon.ee',
       featured: true,
     },
@@ -57,7 +71,7 @@ const Projects = () => {
       description: 'My personal portfolio website showcasing my projects, skills, and experience. Built with modern web technologies featuring responsive design, smooth animations, and a clean user interface.',
       technologies: ['React', 'TypeScript', 'SCSS', 'Framer Motion', 'Vite'],
       liveUrl: 'https://thomas-soolaid.netlify.app',
-      image: '/src/assets/img/portfolio-scrn.png',
+      image: portfolioScrn,
       featured: true,
       githubUrl: 'https://github.com/thomas9900/portfolio-c4',
     },
@@ -67,7 +81,7 @@ const Projects = () => {
       category: 'Literary Magazine',
       description: 'The Estonian Literary Magazine (ELK) is a publication dedicated to Estonian literature, featuring articles, interviews, and literary reviews. The website offers digital access to current and past issues.',
       technologies: ['SCSS', 'WordPress', 'PHP', 'MySQL', 'JavaScript'],
-      image: '/src/assets/img/elk-scrn.png',
+      image: elkScrn,
       liveUrl: 'https://elk.ee',
       featured: true,
     },
@@ -77,7 +91,7 @@ const Projects = () => {
       category: 'Sustainability Platform',
       description: 'A platform dedicated to promoting zero-waste and sustainable living in Estonia. Features articles, guides, and a directory of eco-friendly businesses and events.',
       technologies: ['MySQL', 'JavaScript', 'SCSS', 'WordPress', 'PHP'],
-      image: '/src/assets/img/zeroest-scrn.png',
+      image: zeroestScrn,
       liveUrl: 'https://zeroest.ee',
       featured: true,
     },
@@ -87,7 +101,7 @@ const Projects = () => {
       category: 'Theatre Portal',
       description: 'Estonia’s central portal for theatre information, ticket sales, and news. Features event listings, theatre company profiles, and a modern event calendar.',
       technologies: ['SCSS', 'WordPress', 'PHP', 'MySQL', 'JavaScript'],
-      image: '/src/assets/img/teater-scrn.png',
+      image: teaterScrn,
       liveUrl: 'https://teater.ee',
       featured: false,
     },
@@ -97,7 +111,7 @@ const Projects = () => {
       category: 'Music Band Website',
       description: 'Official website for the Estonian band Bangbonsomer. Features music releases, event information, media gallery, and contact details.',
       technologies: ['PHP', 'WordPress', 'MySQL', 'JavaScript', 'SCSS', 'jQuery', 'Bootstrap'],
-      image: '/src/assets/img/bangbonsomer-scrn.png',
+      image: bangbonsomerScrn,
       liveUrl: 'https://bangbonsomer.ee',
       featured: false,
     },
@@ -107,7 +121,7 @@ const Projects = () => {
       category: 'Education News Portal',
       description: 'Õpetajate Leht is Estonia’s leading education news portal, providing news, articles, and resources for teachers and education professionals.',
       technologies: ['JavaScript', 'SCSS', 'WordPress', 'PHP', 'MySQL'],
-      image: '/src/assets/img/opleht-scrn.png',
+      image: oplehtScrn,
       liveUrl: 'https://opleht.ee',
       featured: false,
     },
@@ -117,7 +131,7 @@ const Projects = () => {
       category: 'Literary Series Website',
       description: 'Website for the Loominguraamatukogu literary series, featuring book listings, author information, and news about new releases in Estonian literature.',
       technologies: ['WordPress', 'PHP', 'MySQL', 'JavaScript', 'SCSS'],
-      image: '/src/assets/img/loominguraamatukogu-scrn.png',
+      image: loominguraamatukoguScrn,
       liveUrl: 'https://loominguraamatukogu.ee',
       featured: false,
     },
@@ -127,7 +141,7 @@ const Projects = () => {
       category: 'Cultural Newspaper',
       description: 'Sirp is Estonia’s leading cultural newspaper, covering arts, literature, science, and social issues. The website features articles, interviews, and event information.',
       technologies: ['SCSS', 'WordPress', 'PHP', 'MySQL', 'JavaScript'],
-      image: '/src/assets/img/sirp-scrn.png',
+      image: sirpScrn,
       liveUrl: 'https://sirp.ee',
       featured: false,
     },
@@ -137,7 +151,7 @@ const Projects = () => {
       category: 'Nature Education Center',
       description: 'Loodusmaja is a nature education center in Estonia, offering educational programs, workshops, and resources for students and teachers. The website provides information about events and activities.',
       technologies: ['SCSS', 'WordPress', 'PHP', 'MySQL', 'JavaScript'],
-      image: '/src/assets/img/loodusmaja-scrn.png',
+      image: loodusmajaScrn,
       liveUrl: 'https://agrofond.ee/loodusmaja',
       featured: false,
     }
