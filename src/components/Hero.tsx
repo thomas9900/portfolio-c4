@@ -81,8 +81,7 @@ const Hero = () => {
             </h1>
             <h2 className="hero__subtitle">Frontend Developer</h2>
             <p className="hero__description">
-              Passionate about creating visually appealing and user-friendly interfaces. 
-              I build intuitive, responsive websites and apps that offer smooth and engaging experiences.
+              Love creating stylish and awesome digital experiences<br />
             </p>
             
             <div className="hero__actions">

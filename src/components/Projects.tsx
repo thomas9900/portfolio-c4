@@ -19,6 +19,7 @@ interface ProjectItem {
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
   const projects: ProjectItem[] = [
+
     {
       id: 1,
       title: 'Soov',
@@ -28,8 +29,6 @@ const Projects = () => {
       liveUrl: 'https://soov.ee',
       image: '/src/assets/img/soov scrn.png',
       featured: true,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 8,
@@ -40,8 +39,6 @@ const Projects = () => {
       liveUrl: 'https://samu.ee',
       image: '/src/assets/img/samu scrn.png',
       featured: true,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 17,
@@ -52,20 +49,17 @@ const Projects = () => {
       image: '/src/assets/img/metsaoksjon scrn.png',
       liveUrl: 'https://metsaoksjon.ee',
       featured: true,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
-      id: 10,
-      title: 'Teater.ee',
-      category: 'Theatre Portal',
-      description: 'Estonia’s central portal for theatre information, ticket sales, and news. Features event listings, theatre company profiles, and a modern event calendar.',
-      technologies: ['SCSS', 'WordPress', 'PHP', 'MySQL', 'JavaScript'],
-      image: '/src/assets/img/teater scrn.png',
-      liveUrl: 'https://teater.ee',
+      id: 0,
+      title: 'Portfolio',
+      category: 'Personal Portfolio',
+      description: 'My personal portfolio website showcasing my projects, skills, and experience. Built with modern web technologies featuring responsive design, smooth animations, and a clean user interface.',
+      technologies: ['React', 'TypeScript', 'SCSS', 'Framer Motion', 'Vite'],
+      liveUrl: 'https://thomas-soolaid.netlify.app',
+      image: '/src/assets/img/portfolio scrn.png',
       featured: true,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
+      githubUrl: 'https://github.com/thomas9900/portfolio-c4',
     },
     {
       id: 11,
@@ -76,8 +70,6 @@ const Projects = () => {
       image: '/src/assets/img/elk scrn.png',
       liveUrl: 'https://elk.ee',
       featured: true,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 12,
@@ -88,8 +80,16 @@ const Projects = () => {
       image: '/src/assets/img/zeroest scrn.png',
       liveUrl: 'https://zeroest.ee',
       featured: true,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
+    },
+    {
+      id: 10,
+      title: 'Teater.ee',
+      category: 'Theatre Portal',
+      description: 'Estonia’s central portal for theatre information, ticket sales, and news. Features event listings, theatre company profiles, and a modern event calendar.',
+      technologies: ['SCSS', 'WordPress', 'PHP', 'MySQL', 'JavaScript'],
+      image: '/src/assets/img/teater scrn.png',
+      liveUrl: 'https://teater.ee',
+      featured: false,
     },
     {
       id: 13,
@@ -100,8 +100,6 @@ const Projects = () => {
       image: '/src/assets/img/bangbonsomer scrn.png',
       liveUrl: 'https://bangbonsomer.ee',
       featured: false,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 14,
@@ -112,8 +110,6 @@ const Projects = () => {
       image: '/src/assets/img/opleht scrn.png',
       liveUrl: 'https://opleht.ee',
       featured: false,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 15,
@@ -124,8 +120,6 @@ const Projects = () => {
       image: '/src/assets/img/loominguraamatukogu scrn.png',
       liveUrl: 'https://loominguraamatukogu.ee',
       featured: false,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 16,
@@ -136,8 +130,6 @@ const Projects = () => {
       image: '/src/assets/img/sirp scrn.png',
       liveUrl: 'https://sirp.ee',
       featured: false,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     },
     {
       id: 9,
@@ -148,8 +140,6 @@ const Projects = () => {
       image: '/src/assets/img/loodusmaja scrn.png',
       liveUrl: 'https://agrofond.ee/loodusmaja',
       featured: false,
-      githubUrl: 'https://github.com/thomas9900',
-      linkedinUrl: 'https://www.linkedin.com/in/thomas-soolaid/?originalSubdomain=ee',
     }
   ];
 

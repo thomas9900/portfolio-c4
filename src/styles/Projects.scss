@@ -175,4 +175,67 @@
   display: flex;
   justify-content: center;
   margin-top: 2.5rem;
+}
+
+// Mobile styles
+@media (max-width: 768px) {
+  .projects.section {
+    padding: 40px 0;
+  }
+
+  .projects__title {
+    font-size: 2rem;
+  }
+
+  .projects__subtitle {
+    font-size: 1rem;
+  }
+
+  .projects__card {
+    padding: 1.5rem;
+  }
+
+  .projects__header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .projects__job-title {
+    font-size: 1.3rem;
+  }
+
+  .projects__project-links {
+    gap: 1rem;
+  }
+
+  .projects__link {
+    gap: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+  }
+
+  .projects__link:hover {
+    background: var(--primary);
+    color: var(--primary-foreground);
+    border-color: var(--primary);
+  }
+
+  .projects__link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .projects__description {
+    font-size: 1rem;
+  }
+
+  .projects__tech-tag {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+  }
 } 
