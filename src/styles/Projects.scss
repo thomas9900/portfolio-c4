@@ -5,19 +5,25 @@
 
 .projects__header {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 .projects__title {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
-  margin-bottom: 0.5rem;
-  color: var(--foreground);
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--foreground), var(--muted-foreground));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .projects__subtitle {
+  font-size: 1.125rem;
   color: var(--muted-foreground);
-  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
 }
 
 .projects__list {
@@ -184,7 +190,7 @@
   }
 
   .projects__title {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
   }
 
   .projects__subtitle {
