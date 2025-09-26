@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import '../styles/Hero.scss';
 import profilePic from '../assets/img/profile-pic-cv.jpg';
-import CV from '../assets/files/CVKeskus_Thomas_Soolaid_2025.pdf';
+import CV from '../assets/files/Thomas-Soolaid-Resume-2025.pdf';
 
 interface Star {
   id: number;
