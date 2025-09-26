@@ -108,8 +108,8 @@ const Projects = () => {
     {
       id: 13,
       title: 'Bangbonsomer',
-      category: 'Music Band Website',
-      description: 'Official website for the Estonian band Bangbonsomer. Features music releases, event information, media gallery, and contact details.',
+      category: 'Company Website',
+      description: 'Official website for Bangbonsomer, a Finnish company. Features company information, services, and contact details.',
       technologies: ['PHP', 'WordPress', 'MySQL', 'JavaScript', 'SCSS', 'jQuery', 'Bootstrap'],
       image: bangbonsomerScrn,
       liveUrl: 'https://bangbonsomer.ee',
